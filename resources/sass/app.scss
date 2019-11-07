@@ -1,0 +1,81 @@
+//
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.flex-item {
+    padding: 5px;
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.input {
+    width: 297px;
+    height: 36px;
+    border: 1px solid grey;
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.button {
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.button:active {
+    background-color: grey;
+}
+
+.text-display {
+    font-size: 25px;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.todo-list {
+    text-align: justify;
+    color: black;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.checkbox {
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    text-decoration: line-through;
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
